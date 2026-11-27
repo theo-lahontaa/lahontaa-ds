@@ -13,5 +13,8 @@ license-files = ["LICENSE"]
 authors = [{ name = "Théo Lahontâa" }]
 dependencies = []
 
+[dependency-groups]
+dev = ["pytest>=8"]
+
 [tool.hatch.build.targets.wheel]
 packages = ["src/lahontaa_ds"]
